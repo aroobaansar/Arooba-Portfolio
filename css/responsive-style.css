@@ -18,13 +18,7 @@
         font-size: 1.0625rem;
     }
 
-    /*blog */
-    .blog_wrapper .blog_details{
-        top: 0.3125rem;
-        left: 0.3125rem;
-        right: 0.3125rem;
-        bottom: 0.3125rem;
-    }
+   
 }
 
 @media (max-width: 991px) {
@@ -75,18 +69,3 @@
     }
 }
 
-@media (max-width: 575.5px) {
-    /* 7 blog */
-    .blog_wrapper .blog_details{
-        top: 2.1875rem;
-        left: 2.1875rem;
-        right: 2.1875rem;
-        bottom: 2.1875rem;
-    }
-}
-@media (max-width: 390px) {
-    /* 7 top banner */
-    .banner_wrapper .banner-content h2::after{
-        left: 34%;
-    }
-}
